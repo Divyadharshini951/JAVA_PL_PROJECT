@@ -128,7 +128,7 @@ public class PLproject_44 {   // 👈 match this with your file name
                     break;
 
                 case 6:
-                    System.out.println("Exiting system...");
+                    System.out.println("Danke fürs Nutzen vom Paketzustellsystem. Tschüss, machts gut!");
                     sc.close();
                     return;
 
