@@ -12,7 +12,7 @@ class Package {
         this.id = id;
         this.sender = sender;
         this.receiver = receiver;
-        updateStatus("Ordered"); // default status
+        updateStatus("Ordered"); 
     }
 
     public String getId() {
@@ -47,7 +47,7 @@ class Package {
     }
 }
 
-public class PLproject_44 {   // 👈 match this with your file name
+public class PLproject_44 {  
     private static Map<String, Package> packageMap = new HashMap<>();
 
     public static void main(String[] args) {
@@ -63,7 +63,7 @@ public class PLproject_44 {   // 👈 match this with your file name
             System.out.println("6. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
